@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './global/header/header.component';
 import { FooterComponent } from './global/footer/footer.component';
 import { FamiliesComponent } from './characters/components/families/families.component';
-import { ViewsComponent } from './characters/views/views.component';
+
 import { ServiceComponent } from './characters/service/service.component';
 import { ModelsComponent } from './characters/models/models.component';
 import { LoginComponent } from './global/login/login.component';
@@ -18,7 +18,6 @@ import { LoginComponent } from './global/login/login.component';
     HeaderComponent,
     FooterComponent,
     FamiliesComponent,
-    ViewsComponent,
     ServiceComponent,
     ModelsComponent,
     LoginComponent,
