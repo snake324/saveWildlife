@@ -9,6 +9,7 @@ import { FamiliesComponent } from './characters/components/families/families.com
 import { ViewsComponent } from './characters/views/views.component';
 import { ServiceComponent } from './characters/service/service.component';
 import { ModelsComponent } from './characters/models/models.component';
+import { LoginComponent } from './global/login/login.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ModelsComponent } from './characters/models/models.component';
     ViewsComponent,
     ServiceComponent,
     ModelsComponent,
+    LoginComponent,
 
   ],
   imports: [
