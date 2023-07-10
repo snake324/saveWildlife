@@ -1,1 +1,9 @@
-<p>card-families works!</p>
+<mat-card>
+    <mat-card-content>
+      <div *ngFor="let image of images">
+        <img [src]="image.url" alt="Imagen">
+        <p>{{ image.name }}</p>
+      </div>
+    </mat-card-content>
+</mat-card>
+  
