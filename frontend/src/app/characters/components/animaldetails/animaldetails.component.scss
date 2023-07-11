@@ -1,0 +1,28 @@
+.container {
+    width: 65.144vh;
+    height: 140.943vh;
+    background-image: url(/assets/images/Details-2-hamb-2.jpg);
+    position: relative;
+}
+
+.rectangle_name {
+    display: flex;
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    width: 315px;
+    height: 50px;
+    background-color: rgb(186, 155, 141);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+// .name {
+//     margin: 10%;
+//     padding: 15%;
+// }
+.p {
+    margin-top: 30%;
+    padding: 15%;
+
+}
