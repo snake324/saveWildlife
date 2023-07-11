@@ -35,9 +35,12 @@ $Zootopia-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { 
+  height: 100%;
+  background: linear-gradient(#BAC294, white);
+}
+
 body { 
   margin: 0; 
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-image: url(assets/images/Image20230710161834.jpg); 
 }
