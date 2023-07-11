@@ -1,13 +1,14 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
+// .example-spacer {
+//     flex: 1 1 auto;
+//   }
 
-  header {
-    background: linear-gradient(to right, lightgreen, lightblue); 
+  .mat-toolbar {
+    background-color: linear-gradient(to right, lightgreen, lightblue); 
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    // justify-content: space-between;
+    width: 100%;
   }
 
   .logo {
@@ -24,5 +25,6 @@
   
 .welcome-message {
     text-align: center;
-    flex-grow: 1
+    flex-grow: 1;
+    
   }
