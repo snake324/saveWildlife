@@ -8,6 +8,7 @@ import { FamiliesComponent } from './characters/components/families/families.com
 import { ServiceComponent } from './characters/service/service.component';
 import { ModelsComponent } from './characters/models/models.component';
 import { LoginComponent } from './global/login/login.component';
+import { PopuploginComponent } from './characters/components/popuplogin/popuplogin.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { LoginComponent } from './global/login/login.component';
     ServiceComponent,
     ModelsComponent,
     LoginComponent,
+    PopuploginComponent,
 
   ],
   imports: [
