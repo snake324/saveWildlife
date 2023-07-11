@@ -13,6 +13,7 @@ import { ServiceComponent } from './characters/service/service.component';
 import { ModelsComponent } from './characters/models/models.component';
 import { AnimalsCounterComponent } from './characters/components/animals-counter/animals-counter.component';
 import { FamiliesComponent } from './characters/views/families/families.component';
+import { LoginviewComponent } from './characters/views/loginview/loginview.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FamiliesComponent } from './characters/views/families/families.componen
     PopuploginComponent,
     ModelsComponent,
     CardFamiliesComponent,
-    AnimalsCounterComponent
+    AnimalsCounterComponent,
+    LoginviewComponent
     
   ],
   imports: [
