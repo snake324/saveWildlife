@@ -11,6 +11,7 @@ import { ServiceComponent } from './characters/service/service.component';
 import { ModelsComponent } from './characters/models/models.component';
 import { AnimalsCounterComponent } from './characters/components/animals-counter/animals-counter.component';
 import { FamiliesComponent } from './characters/views/families/families.component';
+import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FamiliesComponent } from './characters/views/families/families.componen
     ModelsComponent,
     CardFamiliesComponent,
     AnimalsCounterComponent,
-    FamiliesComponent
+    FamiliesComponent,
+    ListSpeciesComponent
   ],
   imports: [
     BrowserModule,
