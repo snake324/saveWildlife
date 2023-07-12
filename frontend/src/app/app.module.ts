@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatCardModule } from '@angular/material/card';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './global/header/header.component';
@@ -17,6 +16,10 @@ import { LoginviewComponent } from './characters/views/loginview/loginview.compo
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FormsModule } from '@angular/forms';
+
+import { FilterPipe } from './characters/components/pipes/filter.pipe';
+import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
 
 
 @NgModule({
@@ -31,7 +34,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ModelsComponent,
     CardFamiliesComponent,
     AnimalsCounterComponent,
-    LoginviewComponent
+    LoginviewComponent,
+    FilterPipe,
+    ListSpeciesComponent,
+    
     
   ],
   imports: [
@@ -40,7 +46,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
