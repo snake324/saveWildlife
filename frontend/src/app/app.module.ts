@@ -16,6 +16,7 @@ import { LoginviewComponent } from './characters/views/loginview/loginview.compo
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FormsModule } from '@angular/forms';
 
 import { FilterPipe } from './characters/components/pipes/filter.pipe';
 import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
@@ -35,7 +36,8 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     AnimalsCounterComponent,
     LoginviewComponent,
     FilterPipe,
-    ListSpeciesComponent
+    ListSpeciesComponent,
+    
     
   ],
   imports: [
@@ -44,7 +46,8 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
