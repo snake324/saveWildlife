@@ -14,6 +14,9 @@ import { ModelsComponent } from './characters/models/models.component';
 import { AnimalsCounterComponent } from './characters/components/animals-counter/animals-counter.component';
 import { FamiliesComponent } from './characters/views/families/families.component';
 import { LoginviewComponent } from './characters/views/loginview/loginview.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -34,7 +37,10 @@ import { LoginviewComponent } from './characters/views/loginview/loginview.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
