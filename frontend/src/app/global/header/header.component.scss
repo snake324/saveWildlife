@@ -1,0 +1,31 @@
+// .example-spacer {
+//     flex: 1 1 auto;
+//   }
+
+  .mat-toolbar {
+    background-color:linear-gradient(#BAC294, white);
+  
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+  }
+
+
+  
+.welcome-message {
+    text-align: center;
+    flex-grow: 1;
+    
+  }
