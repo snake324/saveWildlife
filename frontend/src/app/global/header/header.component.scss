@@ -1,15 +1,10 @@
-// .example-spacer {
-//     flex: 1 1 auto;
-//   }
-
-  .mat-toolbar {
-    background-color:linear-gradient(#BAC294, white);
-  
+   .mat-toolbar {
+    background:none;
     padding: 10px;
     display: flex;
     align-items: center;
-    // justify-content: space-between;
-    width: 100%;
+     width: 100%;
+     border-bottom: 1px solid black;
   }
 
   .logo {
