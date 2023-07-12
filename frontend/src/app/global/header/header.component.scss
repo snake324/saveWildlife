@@ -1,0 +1,26 @@
+   .mat-toolbar {
+    background:none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+     width: 100%;
+     border-bottom: 1px solid black;
+  }
+
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+  }
+
+
+  
+.welcome-message {
+    text-align: center;
+    flex-grow: 1;
+    
+  }
