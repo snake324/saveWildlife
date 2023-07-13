@@ -1,0 +1,26 @@
+.container {
+    width: 65.144vh;
+    height: 140.943vh;
+    
+    position: relative;
+}
+
+.rectangle_name {
+    display: flex;
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    width: 47.94vh;
+    height:  5.32vh;
+    background-color: rgb(186, 155, 141);
+    border-radius:  1.52vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list {
+    list-style-type:none;
+    padding-top:  57.077vh;
+    padding-left: 11.415vh;
+}
