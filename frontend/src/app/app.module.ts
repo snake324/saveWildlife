@@ -17,7 +17,8 @@ import { LoginviewComponent } from './characters/views/loginview/loginview.compo
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import { AnimaldetailsComponent } from './characters/components/animaldetails/animaldetails.component';
+import { Animalsdetails2Component } from './characters/views/animalsdetails2/animalsdetails2.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +32,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ModelsComponent,
     CardFamiliesComponent,
     AnimalsCounterComponent,
-    LoginviewComponent
-    
+    LoginviewComponent,
+    AnimaldetailsComponent,
+    Animalsdetails2Component
   ],
   imports: [
     BrowserModule,
