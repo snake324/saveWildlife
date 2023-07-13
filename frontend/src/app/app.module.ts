@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './global/header/header.component';
 import { FooterComponent } from './global/footer/footer.component';
 import { FamiliesComponent } from './characters/components/families/families.component';
+
 import { ServiceComponent } from './characters/service/service.component';
 import { ModelsComponent } from './characters/models/models.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,15 +15,30 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 
+import { ServiceComponent } from './characters/service/service.component';
+import { ModelsComponent } from './characters/models/models.component';
+import { AnimaldetailsComponent } from './characters/components/animaldetails/animaldetails.component';
+import { Animalsdetails2Component } from './characters/views/animalsdetails2/animalsdetails2.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     FamiliesComponent,
+
     ServiceComponent,
     ModelsComponent,
    
+
+
+    ServiceComponent,
+    ModelsComponent,
+    AnimaldetailsComponent,
+    Animalsdetails2Component,
+
 
   ],
   imports: [

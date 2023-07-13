@@ -1,13 +1,19 @@
+
 .example-spacer {
     flex: 1 1 auto;
   }
 
   header {
     background-color: white;
+
+   .mat-toolbar {
+    background:none;
+
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+     width: 100%;
+     border-bottom: 1px solid black;
   }
 
   .logo {
@@ -24,5 +30,6 @@
   
 .welcome-message {
     text-align: center;
-    flex-grow: 1
+    flex-grow: 1;
+    
   }
