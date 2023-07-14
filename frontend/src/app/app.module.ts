@@ -15,6 +15,8 @@ import { LoginviewComponent } from './characters/views/loginview/loginview.compo
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { AnimaldetailsComponent } from './characters/components/animaldetails/animaldetails.component';
+import { Animalsdetails2Component } from './characters/views/animalsdetails2/animalsdetails2.component';
 import { FormsModule } from '@angular/forms';
 
 import { FilterPipe } from './characters/components/pipes/filter.pipe';
@@ -33,6 +35,8 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     CardFamiliesComponent,
     AnimalsCounterComponent,
     LoginviewComponent,
+    AnimaldetailsComponent,
+    Animalsdetails2Component,
     FilterPipe,
     ListSpeciesComponent,
     
