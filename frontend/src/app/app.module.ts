@@ -19,6 +19,7 @@ import { Animalsdetails2Component } from './characters/views/animalsdetails2/ani
 import { FormsModule } from '@angular/forms';
 import { FilterPipe } from './characters/components/pipes/filter.pipe';
 import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     MatIconModule,
     MatButtonModule,
     FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

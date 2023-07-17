@@ -8,11 +8,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  private ApiUrl = "http://localhost:8000/families"
+  private ApiUrl = "http://localhost:8000"
 
   constructor(private http:HttpClient) { }
   getAll() :Observable<Family[]>{
-    return this.http.get<Family[]>(this.ApiUrl)
+    return this.http.get<Family[]>(`${this.ApiUrl}/families`)
   }
 
 }
