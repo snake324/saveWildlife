@@ -4,10 +4,14 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import rinocerontes.de.java.save.wil.dlife.models.Family;
 import rinocerontes.de.java.save.wil.dlife.services.FamilyService;
 
+@RestController
+@RequestMapping(path = "&{api-endpoint}")
 public class FamilyController {
     
     FamilyService service;
