@@ -15,13 +15,16 @@ public class Family {
     @Column(name = "id_family")
     private Long id;
     private String name;
+    @Column(name = "image_url")
+    private String imageUrl;
 
     public Family() {
     }
 
-    public Family(Long id, String name) {
+    public Family(Long id, String name, String imageUrl) {
         this.id = id;
         this.name = name;
+        this.imageUrl = imageUrl;
     }
 
     public Long getId() {
@@ -38,6 +41,14 @@ public class Family {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl (String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
 }

@@ -30,13 +30,13 @@ public class FamilyService {
         return family;
     }
 
-    public Family save(Family country) {
+    public Family save(Family family) {
 
-        if (country.getName() == "") {
+        if (family.getName() == "") {
             throw new ResponseStatusException(HttpStatusCode.valueOf(400), "name empty");
         }
 
-        Family countrySaved = repository.save(country);
+        Family countrySaved = repository.save(family);
         return countrySaved;
     }
 
