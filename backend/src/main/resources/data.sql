@@ -1,5 +1,5 @@
-INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'FÉLIDOS', 'images/felidos.png');
-INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'CÁNIDOS', 'images/canidos.png');
-INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'REPTILES', 'images/reptiles.png');
-INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'MUSTELIDAE', 'images/mustelidae.png');
-INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'LEPORIDAE', 'images/leporidae.png');
+INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'FÉLIDOS', 'assets/images/felidos.png');
+INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'CÁNIDOS', 'assets/images/canidos.png');
+INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'REPTILES', 'assets/images/reptiles.png');
+INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'MUSTELIDAE', 'assets/images/mustelidae.png');
+INSERT INTO families (id_family, name, image_url) VALUES (DEFAULT, 'LEPORIDAE', 'assets/images/leporidae.png');
