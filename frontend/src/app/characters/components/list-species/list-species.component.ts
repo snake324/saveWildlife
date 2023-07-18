@@ -35,7 +35,6 @@ export class ListSpeciesComponent {
       "country": "American"
     }
   ];
-
   ngOnInit() {
     this.filterAnimalsByCountry();
   }

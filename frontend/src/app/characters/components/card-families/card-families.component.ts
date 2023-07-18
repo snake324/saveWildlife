@@ -1,24 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ApiService } from '../../service/api.service';
+import { Family } from '../../models/family.model';
 
 @Component({
   selector: 'app-card-families',
   templateUrl: './card-families.component.html',
   styleUrls: ['./card-families.component.scss']
 })
-export class CardFamiliesComponent {
-  images = [
-    { url: '../../../../assets/images/tiger-4427000_1280 1 2.png', name: 'FÉLIDOS', route: ''},
-    { url: '../../../../assets/images/wolf-8089783_1280 1 2.png', name: 'CÁNIDOS', route: '' },
-    { url: '../../../../assets/images/gecko-2299365_1280 1 2.png', name: 'REPTILES', route: '' },
-    { url: '../../../../assets/images/snow-17854_1280 1 2.png', name: 'MUSTELIDAE', route: '' },
-    { url: '../../../../assets/images/rabbit-1903016_1280 1 2.png', name: 'LEPORIDAE', route: '' }
-  ];
+export class CardFamiliesComponent implements OnInit {
+  families: Family[] = [];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private apiService: ApiService) {}
 
-  navigateTo(route: string) {
-    this.router.navigateByUrl(route);
+  ngOnInit() {
+    this.getFamilies();
   }
 
+  getFamilies() {
+    this.apiService.getAll().subscribe(
+      (families: Family[]) => {
+        this.families = families;
+      },
+      (error) => {
+        console.log('Error al obtener las familias:', error);
+      }
+    );
+  }
+ 
 }

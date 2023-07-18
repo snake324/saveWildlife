@@ -8,7 +8,6 @@ import { FooterComponent } from './global/footer/footer.component';
 import { LoginComponent } from './global/login/login.component';
 import { PopuploginComponent } from './characters/components/popuplogin/popuplogin.component';
 import { CardFamiliesComponent } from './characters/components/card-families/card-families.component';
-import { ModelsComponent } from './characters/models/models.component';
 import { AnimalsCounterComponent } from './characters/components/animals-counter/animals-counter.component';
 import { FamiliesComponent } from './characters/views/families/families.component';
 import { LoginviewComponent } from './characters/views/loginview/loginview.component';
@@ -18,9 +17,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { AnimaldetailsComponent } from './characters/components/animaldetails/animaldetails.component';
 import { Animalsdetails2Component } from './characters/views/animalsdetails2/animalsdetails2.component';
 import { FormsModule } from '@angular/forms';
-
 import { FilterPipe } from './characters/components/pipes/filter.pipe';
 import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
+import { EditanimalsdetailsComponent } from './characters/components/editanimalsdetails/editanimalsdetails.component';
+
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,7 +32,6 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     FamiliesComponent,
     LoginComponent,
     PopuploginComponent,
-    ModelsComponent,
     CardFamiliesComponent,
     AnimalsCounterComponent,
     LoginviewComponent,
@@ -39,6 +39,8 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     Animalsdetails2Component,
     FilterPipe,
     ListSpeciesComponent,
+    EditanimalsdetailsComponent,
+   
     
     
   ],
@@ -49,7 +51,8 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
