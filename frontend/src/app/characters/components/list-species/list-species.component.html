@@ -1,22 +1,25 @@
-<div class="container">
-    <h1>FELIDS</h1>
-    <div class="row">
-      <div class="col">
-        <div class="form-group">
-            <h2>Filter by:</h2>
-          <input type="text" class="form-control" name="filterPost" placeholder="Origin Country" [(ngModel)]="filterList">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <table class="table table-striped">
-          <tbody>
-            <tr *ngFor="let list of list | filter:filterList">
-              <td>{{list.name}}</td>                          
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+<ul ng-app="myApp" ng-controller="namesCtrl">
+  <li ng-repeat="x in names">
+      <!-- {{animal | continent }} -->
+  </li>
+</ul>
+
+<script>
+var app = angular.module('myApp', []);
+app.filter(' continent ', function() {
+  return function(x) {
+      var i, c, txt = "";
+      for (i = 0; i < x.length; i++) {
+          c = x[i];
+          if (i % 2 == 0) {
+              c = c.toUpperCase();
+          }
+          txt += c;
+      }
+      return txt;
+  };
+});
+app.controller('namesCtrl', function($scope) {
+  $scope.names = ['Jani', 'Carl', 'Margareth', 'Hege', 'Joe', 'Gustav', 'Birgit', 'Mary', 'Kai'];
+});
+</script>

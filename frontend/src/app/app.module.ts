@@ -21,6 +21,8 @@ import { FormsModule } from '@angular/forms';
 
 import { FilterPipe } from './characters/components/pipes/filter.pipe';
 import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
+import { EditanimalsdetailsComponent } from './characters/components/editanimalsdetails/editanimalsdetails.component';
+
 
 
 @NgModule({
@@ -39,6 +41,8 @@ import { ListSpeciesComponent } from './characters/components/list-species/list-
     Animalsdetails2Component,
     FilterPipe,
     ListSpeciesComponent,
+    EditanimalsdetailsComponent,
+   
     
     
   ],
