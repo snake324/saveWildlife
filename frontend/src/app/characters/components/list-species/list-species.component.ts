@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-list-species',
@@ -35,6 +35,13 @@ export class ListSpeciesComponent {
       "country": "American"
     }
   ];
+
   ngOnInit() {
+    this.filterAnimalsByCountry();
+  }
+
+  filterAnimalsByCountry() {
+    this.list = this.list.filter(animal => animal.country === 'African');
   }
 }
+
