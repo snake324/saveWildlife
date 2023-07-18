@@ -19,6 +19,8 @@ import { Animalsdetails2Component } from './characters/views/animalsdetails2/ani
 import { FormsModule } from '@angular/forms';
 import { FilterPipe } from './characters/components/pipes/filter.pipe';
 import { ListSpeciesComponent } from './characters/components/list-species/list-species.component';
+import { EditanimalsdetailsComponent } from './characters/components/editanimalsdetails/editanimalsdetails.component';
+
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -36,7 +38,10 @@ import { HttpClientModule } from '@angular/common/http';
     AnimaldetailsComponent,
     Animalsdetails2Component,
     FilterPipe,
-    ListSpeciesComponent,   
+    ListSpeciesComponent,
+    EditanimalsdetailsComponent,
+   
+    
     
   ],
   imports: [
