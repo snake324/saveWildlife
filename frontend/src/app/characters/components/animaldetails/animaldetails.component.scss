@@ -1,10 +1,8 @@
 .container {
     display: grid;
     grid: 100px / auto auto;
-
     width: 65.144vh;
     height: 140.943vh;
-    // background-image: url(/assets/images/Details-2-hamb-2.jpg);
     position: relative;
 }
 
@@ -21,32 +19,26 @@
     align-items: center;
 }
 
+
+
 .container2 {
     display: grid;
-    grid: 100px / auto auto;
 
-    width: 65.144vh;
-    height: 140.943vh;
-
+}
+.one {
     position: relative;
-}
-
-.list {
+    right: 4.56vh;
     list-style-type: none;
-    padding-top: 57.077vh;
-    padding-left: 10.415vh;
+    margin: -5px 0;
+    margin-top:300px;
+    margin-left: 35px;
 }
-
-.rec {
+.two{
     position: absolute;
     right: 4.56vh;
     list-style-type: none;
-    padding-right: 20px;
     margin: -5px 0;
-    width: 25vh;
-    height: 4.5vh;
-    background-color: rgb(186, 155, 141);
-    border-radius: 1.52vh;
-    border: none;
-    font-weight: 600;
+    margin-top:300px;
+    margin-right: 75px;
 }
+
