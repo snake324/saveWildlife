@@ -1,0 +1,20 @@
+.counter-container{
+    background-color: #E6D5A1;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    margin-top: 5%;
+
+    p{
+        font-size: x-small;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .counter-container{
+        margin-left: 47%;
+    }
+}

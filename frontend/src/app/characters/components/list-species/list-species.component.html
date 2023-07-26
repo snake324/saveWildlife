@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>FELIDS</h1>
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <h2>Filter by:</h2>
+        <input type="text" class="form-control" name="filterPost" placeholder="Origin Country" [(ngModel)]="filterList">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+          <ul>
+            <li *ngFor="let animal of list">
+              {{ animal.name }} - {{ animal.country }}
+            </li>
+          </ul>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
